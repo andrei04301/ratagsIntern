@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "8709987294",
+    "firebase_url": "https://ratagsmobileapplication-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "ratagsmobileapplication",
+    "storage_bucket": "ratagsmobileapplication.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:8709987294:android:10d2f0a1a10467d40d5b4f",
+        "android_client_info": {
+          "package_name": "com.example.firestore_sample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "8709987294-lmf6ct6pq5rfkrou7qd0vad04em9ljpq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-OFU9WJKCjTEHWjR3AyXHKwSYSqcWGP0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "8709987294-lmf6ct6pq5rfkrou7qd0vad04em9ljpq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:8709987294:android:84c7bc5145a32b270d5b4f",
+        "android_client_info": {
+          "package_name": "com.raTags.mobileapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "8709987294-lmf6ct6pq5rfkrou7qd0vad04em9ljpq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-OFU9WJKCjTEHWjR3AyXHKwSYSqcWGP0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "8709987294-lmf6ct6pq5rfkrou7qd0vad04em9ljpq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

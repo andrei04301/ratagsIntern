@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HowToUse"
+    android:background="#f9f2ed"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/linearbuttons">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/AboutUs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="60dp"
+                android:layout_marginBottom="15dp"
+                android:text="About Us"
+                android:textColor="@color/black"
+                android:textSize="35sp"
+                android:fontFamily="@font/poppins"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <ImageView
+                android:id="@+id/applogo"
+                android:layout_width="550px"
+                android:layout_height="550px"
+                android:layout_gravity="center"
+                android:src="@drawable/applogo"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true">
+
+            </ImageView>
+
+            <TextView
+                android:id="@+id/AboutUsText1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:text="We are raTags, your travel buddy, and this is how it all started."
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:fontFamily="@font/poppins"
+                android:textStyle="bold"
+                android:textSize="15sp"></TextView>
+
+            <TextView
+                android:id="@+id/AboutUsText2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:text="One day, while we, blockmates, some laidback juniors from UST, were thinking of a significant capstone project and a project that would also fill in a niche: traveling. We also took into consideration fulfilling some of the United Nations' Sustainable Development Goals: Decent Work and Economic Growth and Sustainable Cities and Communities. "
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:fontFamily="@font/poppins"
+                android:textStyle="bold"
+                android:textSize="15sp"></TextView>
+
+            <TextView
+                android:id="@+id/AboutUsText3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:text="Touring without a direction can be a pain in the ass, especially since Tagaytay is enormous. But why isn't there a navigation application for Tagaytay? Why Tagaytay, you might ask? Why not? It's Tagaytay! It is cold, beautiful, has a lot to offer, and has great spots for people to hang out. These ideas were the beginning of raTags, traveling Tagaytay made easy. \n
+\n raTags is a mobile tour guide, a platform for tourism experiences, and a smart tourism solution for the vicinity of Tagaytay."
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:fontFamily="@font/poppins"
+                android:textStyle="bold"
+                android:textSize="15sp"></TextView>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/linearbuttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/btnExploreNow"
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:text="Explore Now"
+            android:layout_centerInParent="true"
+            android:background="@drawable/custom_button_long"
+            app:backgroundTint="@color/brown"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/poppins"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            >
+        </Button>
+    </LinearLayout>
+
+</RelativeLayout>

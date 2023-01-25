@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="70dp"
+    android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"
+    >
+
+
+    <ImageView
+        android:id="@+id/closelogo"
+        android:layout_width="57dp"
+        android:layout_height="51dp"
+        android:layout_marginLeft="-50dp"
+        android:layout_marginTop="-50dp"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/applogo"
+        >
+
+    </ImageView>
+    <ImageView
+        android:id="@+id/applogo"
+        android:layout_width="260dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:paddingTop="25dp"
+        android:paddingBottom="15dp"
+        android:src="@drawable/applogo">
+    </ImageView>
+
+
+</LinearLayout>

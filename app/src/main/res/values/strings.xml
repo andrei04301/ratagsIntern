@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">raTags</string>
+    <string name="how_to_use">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Donec ac elit sem.
+        Suspendisse dignissim hendrerit turpis vel vehicula. Duis porttitor odio at fermentum
+        aliquet. Nullam sed imperdiet nunc. Phasellus ultrices felis augue, quis volutpat odio
+        elementum non. Donec lobortis ut diam id viverra. Curabitur vitae imperdiet quam.
+        Phasellus id diam pretium, maximus mauris sed, rutrum odio. Maecenas dictum faucibus
+        tristique. Vivamus eu mi nec lacus bibendum porttitor. Suspendisse vitae blandit orci.
+        Proin nec elit at lacus congue laoreet.</string>
+
+    <string name="about_us"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Donec ac elit sem.
+        Suspendisse dignissim hendrerit turpis vel vehicula. Duis porttitor odio at fermentum
+        aliquet. Nullam sed imperdiet nunc. Phasellus ultrices felis augue, quis volutpat odio
+        elementum non. Donec lobortis ut diam id viverra. Curabitur vitae imperdiet quam.
+        Phasellus id diam pretium, maximus mauris sed, rutrum odio. Maecenas dictum faucibus
+        tristique. Vivamus eu mi nec lacus bibendum porttitor. Suspendisse vitae blandit orci.
+        Proin nec elit at lacus congue laoreet. </string>
+
+    <string name="range">raTags</string>
+    <string-array name="rangeSliderValues">
+        <item>20</item>
+        <item>70</item>
+    </string-array>
+    <string name="map_key" translatable="false">AIzaSyDE_d5mVF-_tozNvvLZeu0za2KZhKHZyNo</string>
+</resources>

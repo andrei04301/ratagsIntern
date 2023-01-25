@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.raTags.mobileapplication" >
+    
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.RaTagsMobileApplication"
+        android:networkSecurityConfig="@xml/network_security_config"
+        tools:targetApi="21" >
+        <meta-data android:name="com.google.android.geo.API_KEY" android:value="@string/map_key"/>
+        <activity
+            android:name=".CardTouristDetails"
+            android:exported="false" />
+        <activity
+            android:name=".Maps"
+            android:exported="false" />
+        <activity
+            android:name=".EstablishmentDetails"
+            android:exported="false" />
+        <activity
+            android:name=".CardHotels"
+            android:exported="false" />
+        <activity
+            android:name=".CardGovernmentOffices"
+            android:exported="false" />
+        <activity
+            android:name=".CardHospitals"
+            android:exported="false" />
+        <activity
+            android:name=".CardBanks"
+            android:exported="false" />
+        <activity
+            android:name=".CardAmusementSpots"
+            android:exported="false" />
+        <activity
+            android:name=".CardCoffeeMilkteaShops"
+            android:exported="false" />
+        <activity
+            android:name=".CardFoodSpots"
+            android:exported="false" />
+        <activity
+            android:name=".CardTouristSpots"
+            android:exported="false" />
+        <activity
+            android:name=".AboutTagaytayPage"
+            android:exported="false" />
+        <activity
+            android:name=".Categories"
+            android:exported="false" />
+        <activity
+            android:name=".AboutUs"
+            android:exported="false" />
+        <activity
+            android:name=".HowToUse"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

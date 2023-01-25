@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutTagaytayPage"
+    android:background="#f9f2ed"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/linearbuttons"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/AboutTagaytay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="About Tagaytay"
+                android:textSize="35sp"
+                android:layout_gravity="center"
+                android:layout_marginTop="60dp"
+                android:layout_marginBottom="15dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:fontFamily="@font/poppins"
+                >
+            </TextView>
+
+            <ImageView
+                android:id="@+id/applogo"
+                android:layout_width="550px"
+                android:layout_height="550px"
+                android:layout_gravity="center"
+                android:src="@drawable/applogo"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true">
+            </ImageView>
+
+            <TextView
+                android:id="@+id/AboutTagaytayText1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tagaytay is a two-hour drive from the Metro. Because of this, it is a favorite among tourists to visit. Need a breather? Tagaytay has cold weather with an average temperature of 24 degrees Celsius due to its 634-meter elevation above sea level. How about a break from all the pollution? Aside from its cool breeze and clean air, the city is one of the most environmentally conscious, having banned the use of non-biodegradable plastic and regulating the use of single-use plastics."
+                android:textAlignment="center"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:fontFamily="@font/poppins"
+                android:textStyle="bold"
+                >
+            </TextView>
+
+            <TextView
+                android:id="@+id/AboutTagaytayText2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Moving to the city? Filipinos are known to be hospitable—well, residents of Tagaytay are prime examples. In 2015, Tagaytay was a recipient of the Presidential Award for Child-Friendly Municipalities and Cities, an honor awarded by the Department of Social Welfare and Development to local government units that exert effort in creating child-friendly environments. It is considered one of the best places to retire because it is a small town surrounded by nature, such as a quiet jungle and peaceful mountains."
+                android:textAlignment="center"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:fontFamily="@font/poppins"
+                android:textStyle="bold"
+                >
+            </TextView>
+
+            <TextView
+                android:id="@+id/AboutTagaytayText3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Need a quick getaway? Tagaytay houses famous food spots, aesthetically pleasing scenery like Taal volcano and lake, and places to stay. Foods are exceptional. Tagaytay boasts its renowned bulalo, which originated in the city, and champorado, which just hits the spot and is perfect for the weather. Despite it being a rural city, it is rapidly being urbanized. Tagaytay, aside from Baguio, is the summer capital of the Philippines. It is one of the most visited cities in the world because of its assets."
+                android:textAlignment="center"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:fontFamily="@font/poppins"
+                android:textStyle="bold"
+                >
+            </TextView>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/linearbuttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/btnExploreNow"
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:text="Explore Now"
+            android:layout_centerInParent="true"
+            android:background="@drawable/custom_button_long"
+            app:backgroundTint="@color/brown"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/poppins"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            >
+        </Button>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,14 @@
+<resources>
+    <array name="food_spot_values">
+        <item>0.0</item>
+        <item>7000.0</item>
+    </array>
+    <array name="coffee_spot_values">
+        <item>0.0</item>
+        <item>425.0</item>
+    </array>
+    <array name="hotel_values">
+        <item>0.0</item>
+        <item>20000.0</item>
+    </array>
+</resources>

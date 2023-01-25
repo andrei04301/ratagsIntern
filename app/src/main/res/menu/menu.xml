@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+
+    >
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:paddingTop="10dp"
+            android:title="Categories"
+            android:id="@+id/Categories"
+
+            />
+        <item
+            android:title="About Us"
+            android:id="@+id/AboutUs"/>
+        <item
+            android:title="How to Use"
+            android:id="@+id/HowtoUse"/>
+        <item
+            android:title="About Tagaytay"
+            android:id="@+id/AboutTagaytay"/>
+    </group>
+
+</menu>
