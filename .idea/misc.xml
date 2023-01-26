@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/repo-ratags-mobile/app/src/main/res/drawable/cust_but.xml" value="0.195" />
+        <entry key="..\:/repo-ratags-mobile/app/src/main/res/drawable/custom_button_long.xml" value="0.195" />
+        <entry key="..\:/repo-ratags-mobile/app/src/main/res/drawable/custom_buttons.xml" value="0.195" />
+        <entry key="..\:/repo-ratags-mobile/app/src/main/res/drawable/input_bg.xml" value="0.106" />
+        <entry key="..\:/repo-ratags-mobile/app/src/main/res/layout/activity_about_tagaytay.xml" value="0.18697916666666667" />
+        <entry key="..\:/repo-ratags-mobile/app/src/main/res/layout/activity_about_us.xml" value="0.18697916666666667" />
+        <entry key="..\:/repo-ratags-mobile/app/src/main/res/layout/activity_main.xml" value="0.18697916666666667" />
+        <entry key="..\:/repo-ratags-mobile/app/src/main/res/layout/item.xml" value="0.18697916666666667" />
+        <entry key="..\:/repo-ratags-mobile/app/src/main/res/layout/login_form.xml" value="0.22" />
+        <entry key="..\:/repo-ratags-mobile/app/src/main/res/layout/login_signup.xml" value="0.15256410256410258" />
+        <entry key="..\:/repo-ratags-mobile/app/src/main/res/layout/navigation_drawer.xml" value="0.18697916666666667" />
+        <entry key="..\:/repo-ratags-mobile/app/src/main/res/layout/signup_form.xml" value="0.2" />
+      </map>
+    </option>
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
