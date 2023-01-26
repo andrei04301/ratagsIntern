@@ -9,7 +9,7 @@
     android:background="@drawable/bgsample">
     <View
         android:layout_width="wrap_content"
-        android:layout_height="0"
+        android:layout_height="1dp"
         android:background="#2C000000"
         />
     <ImageView
@@ -24,29 +24,33 @@
         app:layout_constraintHorizontal_bias="0.571"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
     <Button
         android:id="@+id/btn_login"
         android:layout_width="285dp"
-        android:layout_height="70dp"
-        android:text="Login"
-        android:layout_marginBottom="10dp"
-        android:layout_marginTop="150dp"
+        android:layout_height="48dp"
         android:layout_marginLeft="55dp"
-        android:fontFamily="@font/poppins"
-        android:textColor="@color/white"
+        android:layout_marginTop="150dp"
+        android:layout_marginBottom="10dp"
         android:background="@drawable/cust_but"
-        app:backgroundTint="@color/black"/>
+        android:fontFamily="@font/poppins"
+        android:text="Login"
+        android:textColor="@color/white"
+        app:backgroundTint="@color/black" />
 
     <Button
         android:id="@+id/btn_signup"
         android:layout_width="285dp"
-        android:layout_height="70dp"
-        android:text="Signup"
+        android:layout_height="48dp"
         android:layout_marginLeft="55dp"
-        android:fontFamily="@font/poppins"
-        android:textColor="@color/white"
         android:background="@drawable/cust_but"
-        app:backgroundTint="@color/black"
-        />
+        android:backgroundTint="#000000"
+        android:fontFamily="@font/poppins"
+        android:text="Signup"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+
+        app:backgroundTint="@color/transparent"
+        app:strokeColor="#000000" />
 
 </LinearLayout>

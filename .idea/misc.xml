@@ -3,6 +3,22 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/itsga/AndroidStudioProjects/ratagsIntern/app/src/main/res/drawable/cloud_icon.xml" value="0.1545" />
+        <entry key="..\:/Users/itsga/AndroidStudioProjects/ratagsIntern/app/src/main/res/drawable/cust_but.xml" value="0.1545" />
+        <entry key="..\:/Users/itsga/AndroidStudioProjects/ratagsIntern/app/src/main/res/drawable/custom_button_long.xml" value="0.1545" />
+        <entry key="..\:/Users/itsga/AndroidStudioProjects/ratagsIntern/app/src/main/res/drawable/custom_buttons.xml" value="0.1545" />
+        <entry key="..\:/Users/itsga/AndroidStudioProjects/ratagsIntern/app/src/main/res/drawable/custom_textfield.xml" value="0.1545" />
+        <entry key="..\:/Users/itsga/AndroidStudioProjects/ratagsIntern/app/src/main/res/drawable/est_icon.xml" value="0.1545" />
+        <entry key="..\:/Users/itsga/AndroidStudioProjects/ratagsIntern/app/src/main/res/drawable/ic_baseline_email_24.xml" value="0.1545" />
+        <entry key="..\:/Users/itsga/AndroidStudioProjects/ratagsIntern/app/src/main/res/drawable/ic_baseline_security_24.xml" value="0.1545" />
+        <entry key="..\:/Users/itsga/AndroidStudioProjects/ratagsIntern/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1545" />
+        <entry key="..\:/Users/itsga/AndroidStudioProjects/ratagsIntern/app/src/main/res/drawable/round_button.xml" value="0.1545" />
+        <entry key="..\:/Users/itsga/AndroidStudioProjects/ratagsIntern/app/src/main/res/drawable/search_icon.xml" value="0.1545" />
+        <entry key="..\:/Users/itsga/AndroidStudioProjects/ratagsIntern/app/src/main/res/drawable/transparent_bg_bordered_button.xml" value="0.1545" />
+        <entry key="..\:/Users/itsga/AndroidStudioProjects/ratagsIntern/app/src/main/res/layout/login_form.xml" value="0.25" />
+        <entry key="..\:/Users/itsga/AndroidStudioProjects/ratagsIntern/app/src/main/res/layout/login_signup.xml" value="0.25" />
+        <entry key="..\:/Users/itsga/AndroidStudioProjects/ratagsIntern/app/src/main/res/layout/signup_form.xml" value="0.33" />
+        <entry key="..\:/Users/itsga/AndroidStudioProjects/ratagsIntern/app/src/main/res/layout/transparent_bg_bordered_button.xml" value="0.16394927536231885" />
         <entry key="..\:/repo-ratags-mobile/app/src/main/res/drawable/cust_but.xml" value="0.195" />
         <entry key="..\:/repo-ratags-mobile/app/src/main/res/drawable/custom_button_long.xml" value="0.195" />
         <entry key="..\:/repo-ratags-mobile/app/src/main/res/drawable/custom_buttons.xml" value="0.195" />
