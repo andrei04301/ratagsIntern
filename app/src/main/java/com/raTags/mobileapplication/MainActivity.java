@@ -80,11 +80,11 @@ public class MainActivity extends AppCompatActivity {
 
                 if (motionEvent.getAction() == MotionEvent.ACTION_UP) {
                     btnCategories.startAnimation(scaleUp);
-                    Intent intent = new Intent(MainActivity.this, RegistrationUser.class);
+                    Intent intent = new Intent(MainActivity.this, RegistrationManager.class);
                     startActivity(intent);
                 } else if (motionEvent.getAction() == MotionEvent.ACTION_DOWN) {
                     btnCategories.startAnimation(scaleDown);
-                    Intent intent = new Intent(MainActivity.this, RegistrationUser.class);
+                    Intent intent = new Intent(MainActivity.this, RegistrationManager.class);
                     startActivity(intent);
                 }
                 return true;

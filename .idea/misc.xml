@@ -5,7 +5,9 @@
       <map>
         <entry key="..\:/Users/Andre/AndroidStudioProjects/ratagsIntern/app/src/main/res/drawable/cust_but.xml" value="0.2395" />
         <entry key="..\:/Users/Andre/AndroidStudioProjects/ratagsIntern/app/src/main/res/layout/activity_main.xml" value="0.18541666666666667" />
-        <entry key="..\:/Users/Andre/AndroidStudioProjects/ratagsIntern/app/src/main/res/layout/activity_registration_user.xml" value="0.2752808988764045" />
+        <entry key="..\:/Users/Andre/AndroidStudioProjects/ratagsIntern/app/src/main/res/layout/activity_registration_establishment.xml" value="0.18541666666666667" />
+        <entry key="..\:/Users/Andre/AndroidStudioProjects/ratagsIntern/app/src/main/res/layout/activity_registration_manager.xml" value="0.18541666666666667" />
+        <entry key="..\:/Users/Andre/AndroidStudioProjects/ratagsIntern/app/src/main/res/layout/activity_registration_user.xml" value="0.1" />
         <entry key="..\:/Users/Andre/AndroidStudioProjects/ratagsIntern/app/src/main/res/layout/activity_sample.xml" value="0.18541666666666667" />
         <entry key="..\:/Users/Andre/AndroidStudioProjects/ratagsIntern/app/src/main/res/layout/login_form.xml" value="0.18541666666666667" />
         <entry key="..\:/Users/Andre/AndroidStudioProjects/ratagsIntern/app/src/main/res/layout/login_signup.xml" value="0.19610507246376813" />

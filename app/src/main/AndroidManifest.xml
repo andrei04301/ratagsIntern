@@ -20,6 +20,12 @@
         android:theme="@style/Theme.RaTagsMobileApplication"
         tools:targetApi="21">
         <activity
+            android:name=".RegistrationEstablishment"
+            android:exported="false" />
+        <activity
+            android:name=".RegistrationManager"
+            android:exported="false" />
+        <activity
             android:name=".RegistrationUser"
             android:exported="false" />
         <activity
