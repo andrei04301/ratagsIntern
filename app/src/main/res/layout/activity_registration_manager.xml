@@ -187,7 +187,8 @@
                 app:layout_constraintStart_toStartOf="@+id/editPassword2Manager"
                 tools:layout_editor_absoluteY="557dp"
                 tools:ignore="MissingConstraints"
-                android:background="@drawable/cust_but"/>
+                android:background="@drawable/cust_but"
+                app:backgroundTint="@color/material_dynamic_neutral0"/>
 
             <!--            <Button-->
             <!--                android:id="@+id/btnSignup"-->
