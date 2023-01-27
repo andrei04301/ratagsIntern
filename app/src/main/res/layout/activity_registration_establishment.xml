@@ -163,7 +163,7 @@
                 tools:layout_editor_absoluteY="467dp" />
 
             <Button
-                android:id="@+id/btnRegisterManager"
+                android:id="@+id/btnRegisterEst"
                 android:layout_width="296dp"
                 android:layout_height="45dp"
                 android:text="Register"

@@ -20,7 +20,7 @@ public class RegistrationUser extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_registration_user);
 
-                firstNameEditText = (EditText) findViewById(R.id.editFirstName);
+        firstNameEditText = (EditText) findViewById(R.id.editFirstName);
         lastNameEditText = (EditText) findViewById(R.id.editLastName);
         emailEditText = (EditText) findViewById(R.id.editEmail);
         phoneEditText = (EditText) findViewById(R.id.editCellphone);

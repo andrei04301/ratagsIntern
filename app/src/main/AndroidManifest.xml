@@ -37,9 +37,6 @@
             android:value="@string/map_key" />
 
         <activity
-            android:name=".SignupForm"
-            android:exported="false" />
-        <activity
             android:name=".LoginSignup"
             android:exported="false" />
         <activity
