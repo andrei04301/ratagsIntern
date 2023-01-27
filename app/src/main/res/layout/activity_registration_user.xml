@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical"
-    android:background="@drawable/bgsample"
-    tools:context=".SignupForm">
+    tools:context=".RegistrationUser"
+    android:background="@drawable/bgsample">
 
     <View
         android:layout_width="match_parent"
@@ -18,8 +17,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:fillViewport="true"
-        tools:layout_editor_absoluteX="31dp"
-        tools:layout_editor_absoluteY="0dp">
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="-26dp">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
@@ -35,16 +34,17 @@
                 android:text="Signup"
                 android:textColor="@color/white"
                 android:textSize="44sp"
+                app:layout_constraintBottom_toTopOf="@+id/editFirstName"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
 
             <EditText
                 android:id="@+id/editFirstName"
                 android:layout_width="300dp"
                 android:layout_height="wrap_content"
                 android:background="@drawable/custom_textfield"
-                android:drawablePadding="10dp"
                 android:ems="10"
                 android:hint="First Name"
                 android:paddingLeft="20dp"
@@ -52,16 +52,19 @@
                 android:paddingRight="20dp"
                 android:paddingBottom="13dp"
                 android:textColor="@color/white"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.504"
-                app:layout_constraintStart_toStartOf="parent"
-                tools:ignore="MissingConstraints"
-                tools:layout_editor_absoluteY="223dp" />
+                app:layout_constraintBottom_toTopOf="@+id/editLastName"
+                app:layout_constraintEnd_toEndOf="@+id/editLastName"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/editLastName"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.964"
+                tools:ignore="MissingConstraints" />
 
             <EditText
                 android:id="@+id/editLastName"
                 android:layout_width="300dp"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
                 android:background="@drawable/custom_textfield"
                 android:drawablePadding="10dp"
                 android:ems="10"
@@ -71,16 +74,17 @@
                 android:paddingRight="20dp"
                 android:paddingBottom="13dp"
                 android:textColor="@color/white"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.504"
-                app:layout_constraintStart_toStartOf="parent"
-                tools:ignore="MissingConstraints"
-                tools:layout_editor_absoluteY="284dp" />
+                app:layout_constraintBottom_toTopOf="@+id/editEmail"
+                app:layout_constraintEnd_toEndOf="@+id/editEmail"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/editEmail"
+                tools:ignore="MissingConstraints" />
 
             <EditText
                 android:id="@+id/editEmail"
                 android:layout_width="300dp"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
                 android:background="@drawable/custom_textfield"
                 android:drawablePadding="10dp"
                 android:ems="10"
@@ -91,16 +95,17 @@
                 android:paddingRight="20dp"
                 android:paddingBottom="13dp"
                 android:textColor="@color/white"
+                app:layout_constraintBottom_toTopOf="@+id/editCellphone"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.504"
+                app:layout_constraintHorizontal_bias="0.495"
                 app:layout_constraintStart_toStartOf="parent"
-                tools:ignore="MissingConstraints"
-                tools:layout_editor_absoluteY="340dp" />
+                tools:ignore="MissingConstraints" />
 
             <EditText
                 android:id="@+id/editCellphone"
                 android:layout_width="300dp"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
                 android:background="@drawable/custom_textfield"
                 android:drawablePadding="10dp"
                 android:ems="10"
@@ -111,16 +116,17 @@
                 android:paddingRight="20dp"
                 android:paddingBottom="13dp"
                 android:textColor="@color/white"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.504"
-                app:layout_constraintStart_toStartOf="parent"
-                tools:ignore="MissingConstraints"
-                tools:layout_editor_absoluteY="403dp" />
+                app:layout_constraintBottom_toTopOf="@+id/editPassword1"
+                app:layout_constraintEnd_toEndOf="@+id/editEmail"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/editEmail"
+                tools:ignore="MissingConstraints" />
 
             <EditText
                 android:id="@+id/editPassword1"
                 android:layout_width="300dp"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
                 android:background="@drawable/custom_textfield"
                 android:drawablePadding="10dp"
                 android:ems="10"
@@ -131,11 +137,11 @@
                 android:paddingRight="20dp"
                 android:paddingBottom="13dp"
                 android:textColor="@color/white"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.495"
-                app:layout_constraintStart_toStartOf="parent"
-                tools:ignore="MissingConstraints"
-                tools:layout_editor_absoluteY="462dp" />
+                app:layout_constraintBottom_toTopOf="@+id/editPassword2"
+                app:layout_constraintEnd_toEndOf="@+id/editCellphone"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/editCellphone"
+                tools:ignore="MissingConstraints" />
 
             <EditText
                 android:id="@+id/editPassword2"
@@ -151,11 +157,11 @@
                 android:paddingRight="20dp"
                 android:paddingBottom="13dp"
                 android:textColor="@color/white"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.495"
-                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/editPassword1"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/editPassword1"
                 tools:ignore="MissingConstraints"
-                tools:layout_editor_absoluteY="526dp" />
+                tools:layout_editor_absoluteY="479dp" />
 
             <TextView
                 android:id="@+id/forgotPassword"
@@ -165,25 +171,38 @@
                 android:text="Already Have an Account?"
                 android:textColor="@color/white"
                 android:textSize="18sp"
+
                 app:layout_constraintEnd_toEndOf="@+id/btnSignup"
-                app:layout_constraintStart_toStartOf="@+id/btnSignup"
-                tools:layout_editor_absoluteY="657dp"
-                tools:ignore="MissingConstraints" />
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteY="611dp" />
 
             <Button
                 android:id="@+id/btnSignup"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="24dp"
-                android:background="@drawable/cust_but"
+                android:layout_width="296dp"
+                android:layout_height="45dp"
                 android:text="Sign in"
                 android:textColor="@color/white"
+                app:layout_constraintEnd_toEndOf="@+id/editPassword2"
+                app:layout_constraintStart_toStartOf="@+id/editPassword2"
+                tools:layout_editor_absoluteY="557dp"
+                tools:ignore="MissingConstraints"
+                android:background="@drawable/cust_but"/>
+
+            <!--            <Button-->
+<!--                android:id="@+id/btnSignup"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="40dp"-->
+<!--                android:background="@drawable/cust_but"-->
+<!--                android:text="Sign in"-->
+<!--                android:textColor="@color/white"-->
+
                 app:backgroundTint="@color/material_dynamic_neutral0"
                 app:layout_constraintEnd_toEndOf="@+id/editPassword2"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="@+id/editPassword2"
-                app:layout_constraintTop_toBottomOf="@+id/editPassword2"
-                />
+                app:layout_constraintTop_toBottomOf="@+id/editPassword2" />
+
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>

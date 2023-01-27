@@ -1,5 +1,6 @@
 package com.raTags.mobileapplication;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -43,19 +44,29 @@ public class MainActivity extends AppCompatActivity {
 
         btnHow = (Button) findViewById(R.id.btnHow);
         btnCategories = (Button) findViewById(R.id.btnCategories);
+//        btnHow.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                openActivity2();
+//            }
+//        });
+//    }
+//    public void openActivity2(){
+//        Intent intent = new Intent(this, SignupForm.class);
+//        startActivity((intent));
+//    }
 
         btnHow.setOnTouchListener(new View.OnTouchListener() {
             @Override
             public boolean onTouch(View view, MotionEvent motionEvent) {
 
-                if(motionEvent.getAction()==MotionEvent.ACTION_UP){
+                if (motionEvent.getAction() == MotionEvent.ACTION_UP) {
                     btnHow.startAnimation(scaleUp);
-                    Intent intent = new Intent(MainActivity.this, HowToUse.class);
+                    Intent intent = new Intent(MainActivity.this, RegistrationUser.class);
                     startActivity(intent);
-                }
-                else if(motionEvent.getAction()==MotionEvent.ACTION_DOWN){
+                } else if (motionEvent.getAction() == MotionEvent.ACTION_DOWN) {
                     btnHow.startAnimation(scaleDown);
-                    Intent intent = new Intent(MainActivity.this, HowToUse.class);
+                    Intent intent = new Intent(MainActivity.this, RegistrationUser .class);
                     startActivity(intent);
                 }
 
@@ -67,14 +78,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public boolean onTouch(View view, MotionEvent motionEvent) {
 
-                if(motionEvent.getAction()==MotionEvent.ACTION_UP){
+                if (motionEvent.getAction() == MotionEvent.ACTION_UP) {
                     btnCategories.startAnimation(scaleUp);
-                    Intent intent = new Intent(MainActivity.this, Categories.class);
+                    Intent intent = new Intent(MainActivity.this, RegistrationUser.class);
                     startActivity(intent);
-                }
-                else if(motionEvent.getAction()==MotionEvent.ACTION_DOWN){
+                } else if (motionEvent.getAction() == MotionEvent.ACTION_DOWN) {
                     btnCategories.startAnimation(scaleDown);
-                    Intent intent = new Intent(MainActivity.this, Categories.class);
+                    Intent intent = new Intent(MainActivity.this, RegistrationUser.class);
                     startActivity(intent);
                 }
                 return true;

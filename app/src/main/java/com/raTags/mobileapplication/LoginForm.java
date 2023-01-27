@@ -1,4 +1,6 @@
 package com.raTags.mobileapplication;
 
-public class LoginForm {
+import androidx.appcompat.app.AppCompatActivity;
+
+public class LoginForm extends AppCompatActivity {
 }
